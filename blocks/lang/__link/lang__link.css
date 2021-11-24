@@ -1,0 +1,13 @@
+.lang__link{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media (max-width: 767px) {
+  .lang__link{
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

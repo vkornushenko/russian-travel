@@ -1,0 +1,7 @@
+.place_place_places{
+  margin-bottom: 80px;
+}
+
+.place_place_places:last-child{
+  margin: 0;
+}

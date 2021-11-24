@@ -1,0 +1,14 @@
+.place__link{
+  width: 456px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+@media (max-width: 1279px) {
+  .place__link{
+    width: 100%;
+  }
+}

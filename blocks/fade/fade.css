@@ -1,0 +1,9 @@
+/* эффекты ссылок */
+.fade{
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fade:hover{
+  opacity: 0.8;
+}

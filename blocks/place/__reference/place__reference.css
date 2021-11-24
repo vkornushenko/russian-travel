@@ -1,0 +1,11 @@
+.place__reference{
+  grid-area: place__reference;
+  align-self: end;
+}
+
+@media (max-width: 767px) {
+  .place__reference{
+    padding: 0 16px 0 16px;
+    box-sizing: border-box;
+  }
+}

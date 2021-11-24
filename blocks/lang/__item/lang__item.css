@@ -1,0 +1,8 @@
+.lang__item{
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.lang__item:last-child{
+  margin: 0;
+}

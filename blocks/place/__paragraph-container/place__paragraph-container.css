@@ -1,0 +1,10 @@
+.place__paragraph-container{
+  grid-area: place__paragraph-container;
+}
+
+@media (max-width: 767px) {
+  .place__paragraph-container{
+    padding: 0 16px 0 16px;
+    box-sizing: border-box;
+  }
+}

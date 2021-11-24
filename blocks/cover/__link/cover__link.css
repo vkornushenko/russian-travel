@@ -1,0 +1,39 @@
+.cover__link{
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: calc(((100% / 1.6) - 218px - 32px)/2) 0;
+  align-items: center;
+  /*
+  4D is 30% opacity in HEX
+  https://developer.mozilla.org/en-US/docs/Web/CSS/background-color#syntax
+  https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
+  */
+  background-color: #2A2C2F4D;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cover__link:hover{
+  /* CC is 80% opacity in HEX */
+  background-color: #2A2C2FCC;
+}
+
+@media (max-width: 1279px) {
+  .cover__link{
+    width: 100%;
+    max-width: 1184px;
+  }
+}
+@media (max-width: 1023px) {
+  .cover__link{
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .cover__link{
+    width: 100%;
+    padding: calc(((100% / 1.6) - 118px - 16px)/2) 0;
+  }
+}

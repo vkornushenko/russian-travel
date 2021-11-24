@@ -1,0 +1,28 @@
+.lead__caption{
+  width: 100%;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin: 8px 0 0 0;
+  align-self: flex-start;
+}
+
+@media (max-width: 1279px) {
+  .lead__caption{
+    align-self: auto;
+  }
+}
+@media (max-width: 1023px) {
+  .lead__caption{
+    box-sizing: border-box;
+    padding-left: 24px;
+    align-self: auto;
+  }
+}
+@media (max-width: 767px) {
+  .lead__caption{
+    box-sizing: border-box;
+    padding-left: 16px;
+    align-self: auto;
+  }
+}
