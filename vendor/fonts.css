@@ -6,15 +6,15 @@
 }
 
 @font-face {
-  src: url(../fonts/Inter-SemiBold.woff2) format('woff2'),
-       url(../fonts/Inter-SemiBold.woff) format('woff');
+  src: url(../fonts/Inter-Medium.woff2) format('woff2'),
+       url(../fonts/Inter-Medium.woff) format('woff');
   font-family: 'Inter';
   font-weight: bold;
 }
 
 @font-face {
-  src: url(../fonts/Inter-Bold.woff2) format('woff2'),
-       url(../fonts/Inter-Bold.woff) format('woff');
+  src: url(../fonts/Inter-Black.woff2) format('woff2'),
+       url(../fonts/Inter-Black.woff) format('woff');
   font-family: 'Inter';
   font-weight: 900;
 }

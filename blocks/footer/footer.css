@@ -6,19 +6,19 @@
 
 @media (max-width: 1279px) {
   .footer{
-    width: 928px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 48px 0 48px;
   }
 }
 @media (max-width: 1023px) {
   .footer{
-    width: 720px;
+    padding: 0 24px 0 24px;
   }
 }
 
 @media (max-width: 767px) {
   .footer{
-    width: 100%;
-    box-sizing: border-box;
     padding: 0 16px 0 16px;
     font-size: 32px;
     line-height: 35px;

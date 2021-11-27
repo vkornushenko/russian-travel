@@ -1,6 +1,5 @@
 .footer__link-container{
   margin-right: 18px;
-  display: inline-block;
 }
 
 .footer__link-container:last-child{
@@ -9,7 +8,6 @@
 
 @media (max-width: 767px) {
   .footer__link-container{
-    display: list-item;
     margin: 0 0 32px 0;
   }
   .footer__link-container:last-child{
