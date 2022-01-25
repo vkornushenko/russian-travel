@@ -7,16 +7,6 @@
   text-align: center;
 }
 
-/* посмотреть размеры в фигме, эти сам придумал */
-
-@media (max-width: 1023px) {
-  .cover__title{
-    width: 560px;
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
-
 @media (max-width: 767px) {
   .cover__title{
     width: 288px;

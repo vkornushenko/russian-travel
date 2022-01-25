@@ -1,3 +1,15 @@
 .cover_place_page{
   margin-top: 92px;
 }
+
+@media (max-width: 1023px) {
+  .cover_place_page{
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover_place_page{
+    margin-top: 66px;
+  }
+}

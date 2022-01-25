@@ -13,12 +13,6 @@
   }
 }
 
-@media (max-width: 1023px) {
-  .lead__title{
-    margin: 48px 0 32px 0;
-  }
-}
-
 @media (max-width: 767px) {
   .lead__title{
     width: 288px;

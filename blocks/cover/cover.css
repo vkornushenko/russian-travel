@@ -12,13 +12,3 @@
     max-width: 1184px;
   }
 }
-@media (max-width: 1023px) {
-  .cover{
-    width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  .cover{
-    width: 100%;
-  }
-}

@@ -5,3 +5,14 @@
 .place_place_places:last-child{
   margin: 0;
 }
+
+@media (max-width: 1023px) {
+  .place_place_places{
+    margin-bottom: 72px;
+  }
+}
+@media (max-width: 767px) {
+  .place_place_places{
+    margin-bottom: 50px;
+  }
+}

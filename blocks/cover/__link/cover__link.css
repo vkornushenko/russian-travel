@@ -26,14 +26,8 @@
     max-width: 1184px;
   }
 }
-@media (max-width: 1023px) {
-  .cover__link{
-    width: 100%;
-  }
-}
 @media (max-width: 767px) {
   .cover__link{
-    width: 100%;
     padding: calc(((100% / 1.6) - 118px - 16px)/2) 0;
   }
 }

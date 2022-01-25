@@ -1,5 +1,6 @@
 .footer__link-container{
   margin-right: 18px;
+  line-height: 0;
 }
 
 .footer__link-container:last-child{
@@ -14,4 +15,3 @@
     margin: 0;
   }
 }
-

@@ -1,6 +1,6 @@
 .place__paragraph{
   font-size: 18px;
-  line-height: 30px;
+  line-height: 29px;
   margin: 0 0 26px 0;
 }
 
@@ -9,14 +9,7 @@
 }
 
 @media (max-width: 1023px) {
-  .place__title{
-    margin: 0 0 25px 0;
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-@media (max-width: 767px) {
-  .place__title{
+  .place__paragraph{
     margin: 0 0 25px 0;
     font-size: 16px;
     line-height: 26px;

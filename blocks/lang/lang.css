@@ -1,7 +1,13 @@
 .lang{
   list-style-type: none;
-  padding: 0;
+  padding: 0 0 6px 0;
   margin: 0;
   font-size: 0;
   display: flex;
+}
+
+@media (max-width: 767px) {
+  .lang{
+    padding: 0 0 8px 0;
+  }
 }

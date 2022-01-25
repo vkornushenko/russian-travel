@@ -20,6 +20,7 @@
 }
 @media (max-width: 767px) {
   .header{
+    margin-top: 16px;
     padding: 0 16px 0 16px;
   }
 }
