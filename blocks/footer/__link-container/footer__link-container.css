@@ -11,7 +11,4 @@
   .footer__link-container{
     margin: 0 0 32px 0;
   }
-  .footer__link-container:last-child{
-    margin: 0;
-  }
 }
